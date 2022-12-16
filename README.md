@@ -8,7 +8,7 @@ is sensitive to violation of the underlying normality assumption for the respons
 
 The former paper describes a case where a two-factor continuous distribution will always be mis-interpreted as a clean one-factor solution after discretization. 
 
-In this repository we provide a simulated n=10^4 sample from the continuous distribution. 
+In this repository we provide a simulated n=10^4 sample (Xstar.csv) from the continuous distribution. 
 Also provided is a code file for the simulation implemented in R, and an R script readers may run to affirm that
 indeed, regardless of the number and placements of thresholds, the ordinal data will always yield a one-factor solution. 
 The script also illustrates that treating ordinal data as continuous is not always a good idea, even with seven symmetrically distributed ordinal levels. 
